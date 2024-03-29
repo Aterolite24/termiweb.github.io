@@ -363,6 +363,7 @@ body {
   }
   .white {
     color: #fff;
+    padding: 0 10px;
   }
   .inherit,
   a {
