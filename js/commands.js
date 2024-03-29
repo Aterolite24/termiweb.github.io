@@ -62,6 +62,7 @@ help = [
   '<span class="command">pass</span>           It\'s not as obvious as you\'d expect.',
   '<span class="command">banner</span>         Display the header',
   "<br>",
+  "<br>"
 ];
 
 // Get the current date and time
