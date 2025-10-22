@@ -3,7 +3,7 @@ var linkedin = "https://www.linkedin.com/in/achal-gawande-33615b250/";
 var instagram = "https://www.instagram.com/_.4ch4l._24/";
 var github = "https://github.com/Aterolite24";
 var email = 'mailto:gawandeachal24@gmail.com';
-var codeforces = "https://codeforces.com/profile/godYagami";
+var leetcode = "https://leetcode.com/u/codeKaiser/";
 
 linespace = [
   "<br>"
@@ -12,7 +12,7 @@ linespace = [
 whois = [
   "<br>",
   "Hey there, I'm Achal!👋",
-  "Currently cruising through my second year, ",
+  "Currently cruising through my final year, ",
   "pursuing B.tech in Computer Science at Indian Institute of Technology (BHU), Varanasi.",
   "My interests? Well, I'm all about diving into the world of Machine Learning, ",
   "Natural Language Processing, Data Analytics, Competitive Programming, and Algorithms.",
@@ -49,6 +49,8 @@ secret = [
 projects = [
   "<br>",
   "Still curating... most projects are on GitHub, offline, or confidential. Still you may use",
+  "worked on web development and projects oriented to research in machine learning..",
+  '<span class=\"command\">resume</span>         u can checkout my resume for recent projects..',
   '<span class="command">github</span>         To checkout my projects online',
   '<span class="command">social</span>         Display social networks',
   "<br>",
@@ -95,7 +97,7 @@ if (currentHour >= 5 && currentHour < 12) {
 }
 
 coorps = [
-  '<header><div class=\"header-top\"> <div class=\"container\"> <div class=\"header-alert-news\" style=\"font-size: var(--fs-9) !important;\"> <p class="headerp"><b>Aterolite24</b> (ASG) Beyond Corporation. All dreams unreserved.</p> </div> <ul class=\"header-social-container\"> <li> <a href=\" '+github+'\" target="_blank" class=\"social-link\"> <ion-icon name=\"logo-github\" role=\"img\" class=\"md hydrated\" aria-label=\"logo github\"></ion-icon> </a> </li> <li> <a href=\" '+ codeforces +'\"target="_blank" class=\"social-link\"> <ion-icon name=\"bar-chart-outline\" role=\"img\" class=\"md hydrated\" aria-label=\"logo Codeforces\"></ion-icon> </a> </li> <li> <a href=\" '+ instagram+ '\"target="_blank" class=\"social-link\"> <ion-icon name=\"logo-instagram\" role=\"img\" class=\"md hydrated\" aria-label=\"logo instagram\"></ion-icon> </a> </li> <li> <a href=\" ' + linkedin + ' \"target="_blank" class=\"social-link\"> <ion-icon name=\"logo-linkedin\" role=\"img\" class=\"md hydrated\" aria-label=\"logo linkedin\"></ion-icon> </a> </li> </ul> </div> </div><div class=\"header-main\"> <div class=\"container\"><div class=\"terminalIcon\"><ion-icon name=\"terminal-outline\" class=\"terminal-outline\"></ion-icon> </div><div class=\"header-user-actions\"><span class=\"usernn\"> '+ greeting + '</span></div</div> </div></header>'
+  '<header><div class=\"header-top\"> <div class=\"container\"> <div class=\"header-alert-news\" style=\"font-size: var(--fs-9) !important;\"> <p class="headerp"><b>Aterolite24</b> (ASG) Beyond Corporation. All dreams unreserved.</p> </div> <ul class=\"header-social-container\"> <li> <a href=\" '+github+'\" target="_blank" class=\"social-link\"> <ion-icon name=\"logo-github\" role=\"img\" class=\"md hydrated\" aria-label=\"logo github\"></ion-icon> </a> </li> <li> <a href=\" '+ leetcode +'\"target="_blank" class=\"social-link\"> <ion-icon src="img/leetcode.svg" aria-label="logo LeetCode"></ion-icon> </ion-icon> </a> </li> <li> <a href=\" '+ instagram+ '\"target="_blank" class=\"social-link\"> <ion-icon name=\"logo-instagram\" role=\"img\" class=\"md hydrated\" aria-label=\"logo instagram\"></ion-icon> </a> </li> <li> <a href=\" ' + linkedin + ' \"target="_blank" class=\"social-link\"> <ion-icon name=\"logo-linkedin\" role=\"img\" class=\"md hydrated\" aria-label=\"logo linkedin\"></ion-icon> </a> </li> </ul> </div> </div><div class=\"header-main\"> <div class=\"container\"><div class=\"terminalIcon\"><ion-icon name=\"terminal-outline\" class=\"terminal-outline\"></ion-icon> </div><div class=\"header-user-actions\"><span class=\"usernn\"> '+ greeting + '</span></div</div> </div></header>'
 ]
 
 // Replace ${greeting} in the coorps string with the actual greeting
